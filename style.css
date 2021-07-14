@@ -159,7 +159,7 @@ header{
 }
 .gallery >h1{
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .gallery_wrap >div{
 width: 200px;
