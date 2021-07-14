@@ -305,6 +305,9 @@ footer{
          width: 100%;
      }
 
+     .leaderboard_wrap{
+         padding: 0;
+     }
      .leaderboard_wrap > div h2 , .leaderboard_wrap > div h3{
          font-size: 16px;
          text-align: left;
