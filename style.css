@@ -241,6 +241,9 @@ footer{
             width: 100%;
             margin-bottom: 20px;
         }
+        .gallery_wrap{
+            width: 100%;
+        }
         .leaderboard_wrap{
             display: grid;
             grid-template-columns: repeat(4, auto);
@@ -296,7 +299,9 @@ footer{
 
      .gallery_wrap{
          width: 100%;
-         padding: 5px;
+         padding: 0;
+         margin: 0;
+         overflow: hidden;
      }
      .gallery_wrap > div img{
          width: 100%;
@@ -305,8 +310,12 @@ footer{
          width: 100%;
      }
 
+    .leaderboard{
+        width: 100%;
+    }
      .leaderboard_wrap{
          padding: 0;
+         width: 100%;
      }
      .leaderboard_wrap > div h2 , .leaderboard_wrap > div h3{
          font-size: 16px;
