@@ -303,8 +303,8 @@ footer{
          margin: 0;
          overflow: hidden;
      }
-     .gallery_wrap > div img{
-         width: 100%;
+     .gallery_wrap >div{
+         width: 50%;
      }
      .player_name{
          width: 100%;
