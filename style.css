@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+img{
+    object-fit: cover;
+}
 
 /* navigation bar */
 nav{
@@ -32,7 +35,8 @@ nav{
 }
 .user{
     background-color: #E02C6D;
-    padding: 10px 15px;
+    padding: 7px 15px;
+    border-radius: 5px;
 }
 .user:hover{
     color: #ffffffb0;
@@ -57,6 +61,9 @@ header{
 }
 .header_tag button{
     padding: 5px 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
     background-color: #E02C6D;
     color: #fff;
     margin-top: 30px;
@@ -84,9 +91,11 @@ header{
 
         /* main section */
 .player_section{
+    width: 90%;
+    margin: 0 auto;
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -108,7 +117,7 @@ header{
 }
 .highlight_wrap{
     height: 400px;
-    width: 950px;
+    width: 90%;
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -127,6 +136,9 @@ header{
 .highlight_tag button{
     padding: 5px 15px;
     background-color: #E02C6D;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
     color: #fff;
     margin-top: 30px;
 }
@@ -149,13 +161,11 @@ header{
     align-items: center;
 }
 .gallery_wrap{
-    width: 950px;
+    width: 90%;
     height: auto;
-    box-shadow: 5px 5px 25px #8080803b;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     justify-content: center;
-    padding: 20px 30px;
 }
 .gallery >h1{
     text-align: center;
